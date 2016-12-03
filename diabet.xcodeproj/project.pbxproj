@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8206131D5777CB00AE6F94 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206121D5777CB00AE6F94 /* AVKit.framework */; };
+		6B8206151D5777D000AE6F94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206141D5777D000AE6F94 /* AVFoundation.framework */; };
+		6B8206171D5777D500AE6F94 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8206161D5777D500AE6F94 /* MapKit.framework */; };
+		6B3A5F661D5532050000E45F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A5F651D5532050000E45F /* AppDelegate.swift */; };
+		6B3A5F6E1D5532050000E45F /* diabet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F6D1D5532050000E45F /* diabet.xcassets */; };
+		E92A12EA4462EB5AEB457B9F /* MKMapView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B4972C32A6EE5B21D0F03 /* MKMapView+Anima.m */; };
+		C3B270F39391D4CB101E9066 /* ANNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC3422F3A2EF879C3BBFB5 /* ANNavigationController.m */; };
+		A6672E2A4646B87443CB9171 /* ANLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FD7AAADBF62D6008A6269D /* ANLabel.m */; };
+		A40A8F395F075BC76C32A7E6 /* ANCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AD28D3259218CBB898614928 /* ANCSVParser.m */; };
+		D7612393B77C0FECEF383C12 /* UIView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E382B49314FD2E8B9E82136 /* UIView+Anima.m */; };
+		E97DAB6EDF4DE9290F8F090F /* ANDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8F6FA27454E51DB5FC548 /* ANDataList.m */; };
+		41E7ADB31AC86FB3C7B0E09E /* ANVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42948D86DD75BA7D508E3D34 /* ANVideoPlayer.m */; };
+		AD9B28882F4F33A5AB673BEB /* ANClassMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = F178091D19E92EAF93B6ED4D /* ANClassMapping.m */; };
+		D6197BEC536F911B6C680D36 /* ANTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B2C030040A1FC0FE24B7A6 /* ANTabBarController.m */; };
+		9587F9194D4CBC8160DAE1E0 /* ANTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DA121A7A522C8463675A3B /* ANTextField.m */; };
+		79DFF3AAC19B7DE04C84E1AC /* ANRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B269FD5FC7D725432D01A6B7 /* ANRSSParser.m */; };
+		6D4241BA4DA0562987440D3F /* UIImageView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FF19BDDB0999BCAF67263 /* UIImageView+Anima.m */; };
+		238F3C1092DF0B7121C83E6D /* UIWebView+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC082B450C1E973FC9DF4C7 /* UIWebView+Anima.m */; };
+		B41E78D66F6DC97CAE341C14 /* NSString+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F26F84FF4253A3FE6E8A52B /* NSString+Anima.m */; };
+		22F91DF16DCC92BF90F02564 /* NSDictionary+Anima.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FCEE5AC6713C625FB2D78 /* NSDictionary+Anima.m */; };
+		C34FCCBC416F138934E2DA5E /* UIView+AnimaConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D3F77BEABEE3C0E2019CC /* UIView+AnimaConstraints.m */; };
+		55725FAE3DA0B20E938227CE /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2846285CB8222054413E583 /* ANViewController.m */; };
+		27A481F08DDC13B07AB2AA72 /* ANTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = D96C57B8438DC332E58277D5 /* ANTheme.m */; };
+		17D324760910797C1B37B9BE /* ANGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D54271308547740A40CD682 /* ANGradientView.m */; };
+		552EB83C990F0D800F1E890B /* APdiabetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB18768FE1DC2F7BA8266B /* APdiabetManager.swift */; };
+		81752A736E48988DF5DFC4F7 /* APCustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E215A6C790804F5634CE3988 /* APCustomTabBarVC.swift */; };
+		F540C3DA9A018E25255F8040 /* APPostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF60DF14729049148600364 /* APPostScreen.swift */; };
+		5FE2970712B7F672EAD28874 /* APMyPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE012FFA89FBD549373837CC /* APMyPageVC.swift */; };
+		A26B9409B0C4EF678B30028E /* APFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE53E251CE5DB163D784FB9 /* APFeedVC.swift */; };
+		6B3A5F841D55CDC80000E45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */; };
+		6B3A5F851D55CDC80000E45F /* diabet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3A5F831D55CDC80000E45F /* diabet.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B3A5F5E1D5532050000E45F /* diabet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diabet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        6B8206121D5777CB00AE6F94 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6B8206141D5777D000AE6F94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6B8206161D5777D500AE6F94 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6B3A5F651D5532050000E45F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B3A5F6D1D5532050000E45F /* diabet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = diabet.xcassets; sourceTree = "<group>"; };
+		6B3A5F721D5532050000E45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3622D2E00B6555E4370091 /* UIView+AnimaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimaConstraints.h"; sourceTree = "<group>"; };
+		ED80E35771E5833B6C393981 /* ANDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANDataList.h"; sourceTree = "<group>"; };
+		E356ED280506779C939FF9A8 /* ANProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANProtocols.h"; sourceTree = "<group>"; };
+		CD7A6EC8153D3786E966A1B2 /* NSString+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Anima.h"; sourceTree = "<group>"; };
+		D0B85B8E16119A37C6D6BA2A /* ANNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANNavigationController.h"; sourceTree = "<group>"; };
+		97945D64236A2B106D962157 /* ANMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANMacros.h"; sourceTree = "<group>"; };
+		3E1D30C71B647EE23F785827 /* ANTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTabBarController.h"; sourceTree = "<group>"; };
+		008E746AC7BE2C67567454E9 /* UIImageView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Anima.h"; sourceTree = "<group>"; };
+		B0CACBCD959676D03F86F3B3 /* ANGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANGradientView.h"; sourceTree = "<group>"; };
+		AB4FE403E95A60D02EA0F3D7 /* Anima-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Anima-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3F4616594B9BDF50A2EF29F /* AnimaSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnimaSDK.h"; sourceTree = "<group>"; };
+		2F44936B3D35D2B67767E9D0 /* ANCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANCSVParser.h"; sourceTree = "<group>"; };
+		440E0EF88FC5D1BEDB7880A2 /* MKMapView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+Anima.h"; sourceTree = "<group>"; };
+		98653ECC8E0E4B4745F7D9C1 /* ANRSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANRSSParser.h"; sourceTree = "<group>"; };
+		E67C417C6471E29EABC03C0F /* ANTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTheme.h"; sourceTree = "<group>"; };
+		749ECD82965A9054BB88F5CF /* ANViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANViewController.h"; sourceTree = "<group>"; };
+		294DA6D291ACBC03BA19DCB7 /* NSDictionary+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Anima.h"; sourceTree = "<group>"; };
+		E285E810C1BF8D2DC990C7F6 /* ANLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANLabel.h"; sourceTree = "<group>"; };
+		F69CF762CF2EC337F3F05B4F /* ANClassMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANClassMapping.h"; sourceTree = "<group>"; };
+		E1B8A69BEE89C1CE08C3234E /* ANTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANTextField.h"; sourceTree = "<group>"; };
+		48F85504D09CA805E8B21FE4 /* UIView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Anima.h"; sourceTree = "<group>"; };
+		6FC11507EB7C83DA62D4C461 /* ANVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ANVideoPlayer.h"; sourceTree = "<group>"; };
+		AA17E2173C9D30682E6E1D26 /* UIWebView+Anima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Anima.h"; sourceTree = "<group>"; };
+		3E8B4972C32A6EE5B21D0F03 /* MKMapView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+Anima.m"; sourceTree = "<group>"; };
+		5CBC3422F3A2EF879C3BBFB5 /* ANNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANNavigationController.m"; sourceTree = "<group>"; };
+		F5FD7AAADBF62D6008A6269D /* ANLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANLabel.m"; sourceTree = "<group>"; };
+		AD28D3259218CBB898614928 /* ANCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANCSVParser.m"; sourceTree = "<group>"; };
+		8E382B49314FD2E8B9E82136 /* UIView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Anima.m"; sourceTree = "<group>"; };
+		0EB8F6FA27454E51DB5FC548 /* ANDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANDataList.m"; sourceTree = "<group>"; };
+		42948D86DD75BA7D508E3D34 /* ANVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANVideoPlayer.m"; sourceTree = "<group>"; };
+		F178091D19E92EAF93B6ED4D /* ANClassMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANClassMapping.m"; sourceTree = "<group>"; };
+		C5B2C030040A1FC0FE24B7A6 /* ANTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTabBarController.m"; sourceTree = "<group>"; };
+		20DA121A7A522C8463675A3B /* ANTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTextField.m"; sourceTree = "<group>"; };
+		B269FD5FC7D725432D01A6B7 /* ANRSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANRSSParser.m"; sourceTree = "<group>"; };
+		4A1FF19BDDB0999BCAF67263 /* UIImageView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Anima.m"; sourceTree = "<group>"; };
+		DCC082B450C1E973FC9DF4C7 /* UIWebView+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Anima.m"; sourceTree = "<group>"; };
+		2F26F84FF4253A3FE6E8A52B /* NSString+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Anima.m"; sourceTree = "<group>"; };
+		4A2FCEE5AC6713C625FB2D78 /* NSDictionary+Anima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Anima.m"; sourceTree = "<group>"; };
+		3D8D3F77BEABEE3C0E2019CC /* UIView+AnimaConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimaConstraints.m"; sourceTree = "<group>"; };
+		D2846285CB8222054413E583 /* ANViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANViewController.m"; sourceTree = "<group>"; };
+		D96C57B8438DC332E58277D5 /* ANTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANTheme.m"; sourceTree = "<group>"; };
+		4D54271308547740A40CD682 /* ANGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ANGradientView.m"; sourceTree = "<group>"; };
+		E4AB18768FE1DC2F7BA8266B /* APdiabetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APdiabetManager.swift"; sourceTree = "<group>"; };
+		E215A6C790804F5634CE3988 /* APCustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APCustomTabBarVC.swift"; sourceTree = "<group>"; };
+		ACF60DF14729049148600364 /* APPostScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APPostScreen.swift"; sourceTree = "<group>"; };
+		CE012FFA89FBD549373837CC /* APMyPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APMyPageVC.swift"; sourceTree = "<group>"; };
+		3DE53E251CE5DB163D784FB9 /* APFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APFeedVC.swift"; sourceTree = "<group>"; };
+		6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B3A5F831D55CDC80000E45F /* diabet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = diabet.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B3A5F5B1D5532050000E45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8206171D5777D500AE6F94 /* MapKit.framework in Frameworks */,
+				6B8206151D5777D000AE6F94 /* AVFoundation.framework in Frameworks */,
+				6B8206131D5777CB00AE6F94 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B3A5F551D5532050000E45F = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F601D5532050000E45F /* diabet */,
+				6B3A5F781D5533A90000E45F /* Anima-iOS-SDK */,
+				6B8206181D5777DD00AE6F94 /* Frameworks */,
+				6B3A5F5F1D5532050000E45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B3A5F5F1D5532050000E45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F5E1D5532050000E45F /* diabet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B3A5F601D5532050000E45F /* diabet */ = {
+			isa = PBXGroup;
+			children = (
+                6B53AE841D6C875A008DF93D /* Resources */,
+                6B3A5F611D5532050000E45F /* Supporting Files */,
+                6B3A5F651D5532050000E45F /* AppDelegate.swift */,
+                6B3A5F821D55CDC80000E45F /* LaunchScreen.storyboard */,
+				6B3A5F831D55CDC80000E45F /* diabet.storyboard */,
+				6B3A5F6D1D5532050000E45F /* diabet.xcassets */,
+				E4AB18768FE1DC2F7BA8266B /* APdiabetManager.swift */,
+				E215A6C790804F5634CE3988 /* APCustomTabBarVC.swift */,
+				ACF60DF14729049148600364 /* APPostScreen.swift */,
+				CE012FFA89FBD549373837CC /* APMyPageVC.swift */,
+				3DE53E251CE5DB163D784FB9 /* APFeedVC.swift */,
+				);
+			path = diabet;
+			sourceTree = "<group>";
+		};
+		6B3A5F611D5532050000E45F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3A5F621D5532050000E45F /* main.m */,
+				6B3A5F721D5532050000E45F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B3A5F781D5533A90000E45F /* Anima-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B4972C32A6EE5B21D0F03 /* MKMapView+Anima.m */,
+				5CBC3422F3A2EF879C3BBFB5 /* ANNavigationController.m */,
+				5B3622D2E00B6555E4370091 /* UIView+AnimaConstraints.h */,
+				F5FD7AAADBF62D6008A6269D /* ANLabel.m */,
+				ED80E35771E5833B6C393981 /* ANDataList.h */,
+				AD28D3259218CBB898614928 /* ANCSVParser.m */,
+				E356ED280506779C939FF9A8 /* ANProtocols.h */,
+				8E382B49314FD2E8B9E82136 /* UIView+Anima.m */,
+				0EB8F6FA27454E51DB5FC548 /* ANDataList.m */,
+				42948D86DD75BA7D508E3D34 /* ANVideoPlayer.m */,
+				F178091D19E92EAF93B6ED4D /* ANClassMapping.m */,
+				CD7A6EC8153D3786E966A1B2 /* NSString+Anima.h */,
+				D0B85B8E16119A37C6D6BA2A /* ANNavigationController.h */,
+				97945D64236A2B106D962157 /* ANMacros.h */,
+				3E1D30C71B647EE23F785827 /* ANTabBarController.h */,
+				008E746AC7BE2C67567454E9 /* UIImageView+Anima.h */,
+				B0CACBCD959676D03F86F3B3 /* ANGradientView.h */,
+				C5B2C030040A1FC0FE24B7A6 /* ANTabBarController.m */,
+				20DA121A7A522C8463675A3B /* ANTextField.m */,
+				AB4FE403E95A60D02EA0F3D7 /* Anima-Bridging-Header.h */,
+				A3F4616594B9BDF50A2EF29F /* AnimaSDK.h */,
+				B269FD5FC7D725432D01A6B7 /* ANRSSParser.m */,
+				4A1FF19BDDB0999BCAF67263 /* UIImageView+Anima.m */,
+				DCC082B450C1E973FC9DF4C7 /* UIWebView+Anima.m */,
+				2F26F84FF4253A3FE6E8A52B /* NSString+Anima.m */,
+				2F44936B3D35D2B67767E9D0 /* ANCSVParser.h */,
+				440E0EF88FC5D1BEDB7880A2 /* MKMapView+Anima.h */,
+				4A2FCEE5AC6713C625FB2D78 /* NSDictionary+Anima.m */,
+				3D8D3F77BEABEE3C0E2019CC /* UIView+AnimaConstraints.m */,
+				98653ECC8E0E4B4745F7D9C1 /* ANRSSParser.h */,
+				E67C417C6471E29EABC03C0F /* ANTheme.h */,
+				749ECD82965A9054BB88F5CF /* ANViewController.h */,
+				294DA6D291ACBC03BA19DCB7 /* NSDictionary+Anima.h */,
+				E285E810C1BF8D2DC990C7F6 /* ANLabel.h */,
+				F69CF762CF2EC337F3F05B4F /* ANClassMapping.h */,
+				E1B8A69BEE89C1CE08C3234E /* ANTextField.h */,
+				48F85504D09CA805E8B21FE4 /* UIView+Anima.h */,
+				6FC11507EB7C83DA62D4C461 /* ANVideoPlayer.h */,
+				D2846285CB8222054413E583 /* ANViewController.m */,
+				D96C57B8438DC332E58277D5 /* ANTheme.m */,
+				AA17E2173C9D30682E6E1D26 /* UIWebView+Anima.h */,
+				4D54271308547740A40CD682 /* ANGradientView.m */,
+				);
+			path = "Anima-iOS-SDK";
+			sourceTree = "<group>";
+		};
+        6B8206181D5777DD00AE6F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8206161D5777D500AE6F94 /* MapKit.framework */,
+				6B8206141D5777D000AE6F94 /* AVFoundation.framework */,
+				6B8206121D5777CB00AE6F94 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+        6B53AE841D6C875A008DF93D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B3A5F5D1D5532050000E45F /* diabet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3A5F751D5532050000E45F /* Build configuration list for PBXNativeTarget "diabet" */;
+			buildPhases = (
+				6B3A5F5A1D5532050000E45F /* Sources */,
+				6B3A5F5B1D5532050000E45F /* Frameworks */,
+				6B3A5F5C1D5532050000E45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diabet;
+			productName = diabet;
+			productReference = 6B3A5F5E1D5532050000E45F /* diabet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B3A5F561D5532050000E45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			    LastSwiftUpdateCheck = 0800;
+			    ORGANIZATIONNAME = CompanyName;
+				TargetAttributes = {
+					6B3A5F5D1D5532050000E45F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B3A5F591D5532050000E45F /* Build configuration list for PBXProject "diabet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B3A5F551D5532050000E45F;
+			productRefGroup = 6B3A5F5F1D5532050000E45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B3A5F5D1D5532050000E45F /* diabet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B3A5F5C1D5532050000E45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3A5F851D55CDC80000E45F /* diabet.storyboard in Resources */,
+				6B3A5F6E1D5532050000E45F /* diabet.xcassets in Resources */,
+				6B3A5F841D55CDC80000E45F /* LaunchScreen.storyboard in Resources */,
+                );
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B3A5F5A1D5532050000E45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			    6B3A5F661D5532050000E45F /* AppDelegate.swift in Sources */,
+			    E92A12EA4462EB5AEB457B9F /* MKMapView+Anima.m in Sources */,
+				C3B270F39391D4CB101E9066 /* ANNavigationController.m in Sources */,
+				A6672E2A4646B87443CB9171 /* ANLabel.m in Sources */,
+				A40A8F395F075BC76C32A7E6 /* ANCSVParser.m in Sources */,
+				D7612393B77C0FECEF383C12 /* UIView+Anima.m in Sources */,
+				E97DAB6EDF4DE9290F8F090F /* ANDataList.m in Sources */,
+				41E7ADB31AC86FB3C7B0E09E /* ANVideoPlayer.m in Sources */,
+				AD9B28882F4F33A5AB673BEB /* ANClassMapping.m in Sources */,
+				D6197BEC536F911B6C680D36 /* ANTabBarController.m in Sources */,
+				9587F9194D4CBC8160DAE1E0 /* ANTextField.m in Sources */,
+				79DFF3AAC19B7DE04C84E1AC /* ANRSSParser.m in Sources */,
+				6D4241BA4DA0562987440D3F /* UIImageView+Anima.m in Sources */,
+				238F3C1092DF0B7121C83E6D /* UIWebView+Anima.m in Sources */,
+				B41E78D66F6DC97CAE341C14 /* NSString+Anima.m in Sources */,
+				22F91DF16DCC92BF90F02564 /* NSDictionary+Anima.m in Sources */,
+				C34FCCBC416F138934E2DA5E /* UIView+AnimaConstraints.m in Sources */,
+				55725FAE3DA0B20E938227CE /* ANViewController.m in Sources */,
+				27A481F08DDC13B07AB2AA72 /* ANTheme.m in Sources */,
+				17D324760910797C1B37B9BE /* ANGradientView.m in Sources */,
+				552EB83C990F0D800F1E890B /* APdiabetManager.swift in Sources */,
+				81752A736E48988DF5DFC4F7 /* APCustomTabBarVC.swift in Sources */,
+				F540C3DA9A018E25255F8040 /* APPostScreen.swift in Sources */,
+				5FE2970712B7F672EAD28874 /* APMyPageVC.swift in Sources */,
+				A26B9409B0C4EF678B30028E /* APFeedVC.swift in Sources */,
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B3A5F731D5532050000E45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anima-iOS-SDK/Anima-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				};
+			name = Debug;
+		};
+		6B3A5F741D5532050000E45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anima-iOS-SDK/Anima-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				};
+			name = Release;
+		};
+		6B3A5F761D5532050000E45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = diabet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.diabet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B3A5F771D5532050000E45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = diabet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CompanyName.diabet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B3A5F591D5532050000E45F /* Build configuration list for PBXProject "diabet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3A5F731D5532050000E45F /* Debug */,
+				6B3A5F741D5532050000E45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3A5F751D5532050000E45F /* Build configuration list for PBXNativeTarget "diabet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3A5F761D5532050000E45F /* Debug */,
+				6B3A5F771D5532050000E45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B3A5F561D5532050000E45F /* Project object */;
+}
